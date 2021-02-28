@@ -47,7 +47,7 @@ void setup() {
   tft.drawString(60, 20, "V1.01");
   tft.display();
   delay(2000);
-  wifiMulti.addAP("TELE2-EFC84F", "C16BEBD9E8");;
+  wifiMulti.addAP("SSID HERE", "WEB KEY HERE");;
 }
 void loop() {
   if ((wifiMulti.run() == WL_CONNECTED)) {
