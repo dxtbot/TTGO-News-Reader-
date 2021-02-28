@@ -9,5 +9,8 @@ TTGO Wifi News reader ,for Oled 128x64 Paxcounter
 wil show scrolling text ,
 it uses Thingspeak API ( Dutch news and weather )
 just add your wifi setings in the sketch ,
+
+ wifiMulti.addAP("SSID HERE", "WEB KEY HERE");;
+
 it uses Arduino Ide to upload this sketch !
 
